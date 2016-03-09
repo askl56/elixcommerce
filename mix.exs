@@ -15,7 +15,7 @@ defmodule Elixcommerce.Mixfile do
 
   def application do
   [
-    mod: {PhoenixCommerce, []},
+    mod: {Elixcommerce, []},
     applications: applications(Mix.env)
   ]
   end
